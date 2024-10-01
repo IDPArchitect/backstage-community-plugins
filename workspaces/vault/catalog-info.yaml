@@ -2,12 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: vault
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  description: A secret management system
+  annotations:
+    vault.io/secrets-path: "my-secret"
+    vault.io/secrets-engine: 'kv-v2'
 spec:
   type: website
-  owner: john@example.com
+  owner: team-a
   lifecycle: experimental
