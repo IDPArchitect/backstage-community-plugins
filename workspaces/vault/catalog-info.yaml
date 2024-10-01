@@ -4,8 +4,8 @@ metadata:
   name: vault
   description: A secret management system
   annotations:
-    vault.io/secrets-path: "backstage/development"
-    vault.io/secrets-engine: "kv-v2"
+    vault.io/secrets-path: "data/backstage/development"
+    vault.io/secrets-engine: "secrets"
 spec:
   type: website
   owner: team-a
