@@ -5,7 +5,7 @@ metadata:
   description: A secret management system
   annotations:
     vault.io/secrets-path: "backstage/development"
-    vault.io/secrets-engine: "secrets"
+    vault.io/secrets-engine: "kv"
 spec:
   type: website
   owner: team-a
