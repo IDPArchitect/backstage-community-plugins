@@ -4,7 +4,7 @@ metadata:
   name: vault
   description: A secret management system
   annotations:
-    vault.io/secrets-path: 'backstage'
+    vault.io/secrets-path: 'data/backstage'
 spec:
   type: service
   owner: team-a
