@@ -7,5 +7,5 @@ metadata:
     vault.io/secrets-path: 'backstage'
 spec:
   type: service
-  owner: guests
+  owner: user:guest
   lifecycle: experimental
