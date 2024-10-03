@@ -5,7 +5,7 @@ metadata:
   description: A secret management system
   annotations:
     vault.io/secrets-path: 'backstage'
-    vault.io/mount-path: 'secrets'
+    vault.io/mount-path: 'secret'
 spec:
   type: service
   owner: user:guest
